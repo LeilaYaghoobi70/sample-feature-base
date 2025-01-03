@@ -33,6 +33,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":feature:screen:domain"))
+
     implementation(libs.bundles.androidx.group)
     testImplementation(libs.google.material)
     testImplementation(libs.junit)
