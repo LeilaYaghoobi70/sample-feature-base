@@ -38,4 +38,7 @@ dependencies {
     implementation(libs.bundles.androidx.group)
     testImplementation(libs.google.material)
     testImplementation(libs.junit)
+
+    implementation(libs.retrofit2)
+    implementation(libs.retrofit2.converter)
 }
