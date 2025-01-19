@@ -41,4 +41,5 @@ dependencies {
 
     implementation(libs.retrofit2)
     implementation(libs.retrofit2.converter)
+    implementation(libs.logging.interceptor)
 }
